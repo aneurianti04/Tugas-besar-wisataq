@@ -1,0 +1,17 @@
+// Chatbot sederhana
+function chatbot() {
+    let input = document.getElementById("chatInput").value;
+    let response = document.getElementById("chatResponse");
+
+    if(input.toLowerCase().includes("pantai")) {
+        response.innerText = "Pantai terbaik adalah Pulau Merah!";
+    } else {
+        response.innerText = "Terima kasih sudah bertanya 😊";
+    }
+}
+
+// Form Booking
+document.getElementById("bookingForm").addEventListener("submit", function(e){
+    e.preventDefault();
+    document.getElementById("notif").innerText = "Pesanan berhasil dikirim!";
+});
