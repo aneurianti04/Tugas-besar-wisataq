@@ -169,7 +169,6 @@
     </form>
     <p id="notif"></p>
 </section>
-
 <script src="script.js"></script>
 </body>
 </html>
